@@ -152,6 +152,7 @@ echo
 
 dnf  -yq install https://rpm.nodesource.com/pub_20.x/nodistro/repo/nodesource-release-nodistro-1.noarch.rpm
 dnf -yq install nodejs --setopt=nodesource-nodejs.module_hotfixes=1
+node --version
 
 echo
 echo "**********************************"
